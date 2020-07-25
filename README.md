@@ -100,7 +100,7 @@ The result is tar-gzipped file in the dist subdirectory:
 ```
 (🐙)/dominion-object-model
 $ ls dist
-dominion_object_model-1.0.1-py3-none-any.whl
+dominion_object_model-1.1.0-py3-none-any.whl
 ```
 
 Save the following to ~/.pypirc
@@ -123,13 +123,13 @@ username = <your user name>
 Next, we can upload the package using twine to PyPI.
 
 ```
-(🐙)/dominion/dominion/object_model/
+(🐙)/dominion-object-model
 $ poetry run twine upload -p <redacted> dist/*.whl
 
 Uploading distributions to https://upload.pypi.org/legacy/
-Uploading dominion_object_model-1.0.2-py3-none-any.whl
+Uploading dominion_object_model-1.1.0-py3-none-any.whl
 100%|██████████████████████████████| 10.2k/10.2k [00:01<00:00, 7.20kB/s]
 
 View at:
-https://pypi.org/project/dominion-object-model/1.0.2/
+https://pypi.org/project/dominion-object-model/1.1.0
 ```

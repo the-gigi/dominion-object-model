@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dominion-object-model"
-version = "1.0.1"
+version = "1.1.0"
 description = "abstract classes for implementing dominion-object-model players and clients"
 authors = ["the-gigi <the.gigi@gmail.com>"]
 
